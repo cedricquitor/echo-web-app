@@ -2,8 +2,8 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <section className="mt-20 container mx-auto">
-      {/* items-center */}
+    <section className="mt-20">
+      {/* Hero Page */}
       <div className="flex flex-row justify-center items-center">
         {/* Text CTA */}
         <div className="flex flex-col -mt-10">
@@ -24,6 +24,12 @@ const Landing = () => {
         <div>
           <img src="./assets/undraw_echo.svg" alt="Image of a globe" className="h-5/6" />
         </div>
+      </div>
+      {/* Partners */}
+      <div className="mt-12 py-8 bg-[#52B286] flex flex-col items-center">
+        <h3 className="font-raleway font-bold text-white">PARTNERED WITH</h3>
+        {/* Icons */}
+        <div>Adsaokdoa</div>
       </div>
     </section>
   );

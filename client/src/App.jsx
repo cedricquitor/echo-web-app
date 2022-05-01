@@ -6,9 +6,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <section className="bg-[#F0F2F5]">
+    <div className="h-[100vh] bg-[#F0F2F5]">
       <Navbar />
-    </section>
+    </div>
   );
 }
 

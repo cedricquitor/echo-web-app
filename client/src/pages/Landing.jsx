@@ -26,10 +26,29 @@ const Landing = () => {
         </div>
       </div>
       {/* Partners */}
-      <div className="mt-12 py-8 bg-[#52B286] flex flex-col items-center">
+      <div className="mt-28 py-8 bg-[#52B286] flex flex-col items-center">
         <h3 className="font-raleway font-bold text-white">PARTNERED WITH</h3>
         {/* Icons */}
-        <div>Adsaokdoa</div>
+        <div className="mt-2 flex flex-row">
+          <img src="./assets/icon-airbnb.png" alt="Airbnb Icon" className="mx-12" />
+          <img src="./assets/icon-uber.png" alt="Uber Icon" className="mx-12" />
+          <img src="./assets/icon-tripadvisor.png" alt="Tripadvisor Icon" className="mx-12" />
+          <img src="./assets/icon-doordash.png" alt="DoorDash Icon" className="mx-12" />
+          <img src="./assets/icon-booking.png" alt="Booking Icon" className="mx-12" />
+        </div>
+      </div>
+      {/* Popular Destinations */}
+      <div className="mt-28 flex flex-col items-center">
+        <h3 className="font-raleway font-bold text-2xl text-[#A5A5A5]">POPULAR DESTINATIONS</h3>
+        <h1 className="font-fredoka text-5xl text-[#40916C]">most echoed place</h1>
+        <div className="mt-24 grid grid-cols-3 gap-20">
+          <img src="./assets/place-newyork.svg" alt="" />
+          <img src="./assets/place-toronto.svg" alt="" />
+          <img src="./assets/place-chicago.svg" alt="" />
+          <img src="./assets/place-beijing.svg" alt="" />
+          <img src="./assets/place-doha.svg" alt="" />
+          <img src="./assets/place-manila.svg" alt="" />
+        </div>
       </div>
     </section>
   );

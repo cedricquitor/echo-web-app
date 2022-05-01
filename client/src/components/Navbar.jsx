@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src="./assets/echo-full.png" alt="echo Logo" className="h-14" />
         </div>
         {/* Links */}
-        <div className="flex flex-row font-raleway font-thin text-2xl text-[#727272]">
+        <div className="flex flex-row font-raleway text-2xl text-[#727272]">
           <a href="#" className="mr-8 my-auto">
             Home
           </a>

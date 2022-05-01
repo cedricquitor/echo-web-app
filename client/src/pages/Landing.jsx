@@ -21,9 +21,7 @@ const Landing = () => {
           </div>
         </div>
         {/* Image */}
-        <div>
-          <img src="./assets/undraw_echo.svg" alt="Image of a globe" className="h-5/6" />
-        </div>
+        <img src="./assets/undraw_echo.svg" alt="Image of a globe" className="h-5/6" />
       </div>
       {/* Partners */}
       <div className="mt-28 py-8 bg-[#52B286] flex flex-col items-center">
@@ -48,6 +46,17 @@ const Landing = () => {
           <img src="./assets/place-beijing.svg" alt="" />
           <img src="./assets/place-doha.svg" alt="" />
           <img src="./assets/place-manila.svg" alt="" />
+        </div>
+      </div>
+      {/* Sub-CTA */}
+      <div className="mt-32 flex flex-row justify-center items-center">
+        <img src="./assets/undraw_moments.svg" alt="Illustration of a camera with photos" />
+        {/* Text */}
+        <div className="flex flex-col w-3/12 -mt-12 ml-28 pr-10">
+          <h1 className="mb-4 font-fredoka text-5xl text-[#40916C]">consectetur elit</h1>
+          <p className="mb-8 font-raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit sociis ac, leo suspendisse mi urna interdum. Enim nec habitant mi at tellus vitae nulla.</p>
+          <p className="mb-10 font-raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus velit et dolor ullamcorper purus. Lectus bibendum ipsum nunc nisl, pellentesque sed augue molestie.</p>
+          <button className="w-7/12 font-raleway text-2xl bg-[#3F3D56] text-white py-2 px-4 rounded-3xl my-auto">Create an account</button>
         </div>
       </div>
     </section>

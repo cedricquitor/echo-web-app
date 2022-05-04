@@ -59,6 +59,12 @@ const Landing = () => {
           <button className="w-7/12 font-raleway text-2xl bg-[#3F3D56] text-white py-2 px-4 rounded-3xl my-auto">Create an account</button>
         </div>
       </div>
+      {/* Featured Posts */}
+      <div className="mt-48 flex flex-col items-center">
+        <h3 className="font-raleway font-bold text-2xl text-[#A5A5A5]">FEATURED POSTS</h3>
+        <h1 className="font-fredoka text-5xl text-[#40916C]">top echoes</h1>
+        <div className="mt-8"></div>
+      </div>
     </section>
   );
 };

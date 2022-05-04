@@ -1,4 +1,5 @@
 import React from "react";
+import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const Landing = () => {
   return (
@@ -63,7 +64,15 @@ const Landing = () => {
       <div className="mt-48 flex flex-col items-center">
         <h3 className="font-raleway font-bold text-2xl text-[#A5A5A5]">FEATURED POSTS</h3>
         <h1 className="font-fredoka text-5xl text-[#40916C]">top echoes</h1>
-        <div className="mt-8"></div>
+        <div className="mt-8 flex flex-row">
+          <BsFillArrowLeftCircleFill className="h-[62px] w-[62px] text-[#52B286]" />
+          <div className="flex">
+            <div>Image 1</div>
+            <div>Image 2</div>
+            <div>Image 3</div>
+          </div>
+          <BsFillArrowRightCircleFill className="h-[62px] w-[62px] text-[#52B286]" />
+        </div>
       </div>
     </section>
   );

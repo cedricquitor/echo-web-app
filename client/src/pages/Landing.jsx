@@ -69,20 +69,51 @@ const Landing = () => {
           <div className="flex">
             <div className="bg-white mx-8 rounded-2xl">
               <img src="./assets/card-1.svg" alt="Image of Burj Khalifa" />
-              <div className="flex mb-2 mx-2 my-1">
-                <h1 className="px-3 text-base font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer">Tag 1</h1>
-                <h1>Tag 2</h1>
-                <h1>Tag 3</h1>
+              <div className="flex mb-2 mx-3 my-2">
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer mr-2">burjkhalifa</h1>
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer mr-2">dubai</h1>
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer">skyscraper</h1>
               </div>
-              <h1>Burj Khalifa</h1>
+              <div className="flex flex-col pb-6">
+                <h1 className="mx-3 font-raleway font-bold text-2xl text-[#40916C]">Burj Khalifa</h1>
+                <p className="mt-1 mx-3 font-raleway text-base">
+                  Lorem ipsum dolor sit amet, consectetur
+                  <br /> adipiscing elit. Eu egestas sagittis mattis
+                  <br /> consequat.
+                </p>
+              </div>
             </div>
             <div className="bg-white mx-8 rounded-2xl">
               <img src="./assets/card-2.svg" alt="Image of Santorini" />
-              Image 2
+              <div className="flex mb-2 mx-3 my-2">
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer mr-2">santorini</h1>
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer mr-2">greece</h1>
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer">city</h1>
+              </div>
+              <div className="flex flex-col pb-6">
+                <h1 className="mx-3 font-raleway font-bold text-2xl text-[#40916C]">Santorini</h1>
+                <p className="mt-1 mx-3 font-raleway text-base">
+                  Lorem ipsum dolor sit amet, consectetur
+                  <br /> adipiscing elit. Eu egestas sagittis mattis
+                  <br /> consequat.
+                </p>
+              </div>
             </div>
             <div className="bg-white mx-8 rounded-2xl">
               <img src="./assets/card-3.svg" alt="Image of Louvre" />
-              Image 3
+              <div className="flex mb-2 mx-3 my-2">
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer mr-2">louvre</h1>
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer mr-2">france</h1>
+                <h1 className="px-3 text-base my-auto font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer">museum</h1>
+              </div>
+              <div className="flex flex-col pb-6">
+                <h1 className="mx-3 font-raleway font-bold text-2xl text-[#40916C]">Louvre</h1>
+                <p className="mt-1 mx-3 font-raleway text-base">
+                  Lorem ipsum dolor sit amet, consectetur
+                  <br /> adipiscing elit. Eu egestas sagittis mattis
+                  <br /> consequat.
+                </p>
+              </div>
             </div>
           </div>
           <BsFillArrowRightCircleFill className="h-[62px] w-[62px] text-[#52B286]" />

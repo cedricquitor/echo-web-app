@@ -119,6 +119,15 @@ const Landing = () => {
           <BsFillArrowRightCircleFill className="h-[62px] w-[62px] text-[#52B286]" />
         </div>
       </div>
+      <div className="py-20 px-40 flex flex-col container mx-auto mt-40 bg-[#3F3D56] rounded-3xl">
+        <h1 className="text-white text-center text-5xl font-fredoka">let the world know your adventure</h1>
+        <p className="mt-4 font-raleway text-[#DADADA] text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus in in enim pellentesque vitae, nec
+          <br /> pretium. Est felis, vulputate velit bibendum imperdiet id duis eu. Sociis erat consectetur vestibulum ut
+          <br /> aliquam dapibus turpis fringilla. Faucibus aenean ac vestibulum tincidunt mattis aliquet.
+        </p>
+        <button className="w-4/12 mx-auto mt-8 my-auto font-raleway text-2xl bg-[#40916C] text-white py-3 rounded-3xl">Create an echo account</button>
+      </div>
     </section>
   );
 };

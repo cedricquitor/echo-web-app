@@ -22,7 +22,7 @@ const Landing = () => {
           </div>
         </div>
         {/* Image */}
-        <img src="./assets/undraw_echo.svg" alt="Image of a globe" className="h-5/6" />
+        <img src="./assets/undraw_echo.svg" alt="Image of a globe" />
       </div>
       {/* Partners */}
       <div className="mt-28 py-8 bg-[#52B286] flex flex-col items-center">
@@ -64,12 +64,26 @@ const Landing = () => {
       <div className="mt-48 flex flex-col items-center">
         <h3 className="font-raleway font-bold text-2xl text-[#A5A5A5]">FEATURED POSTS</h3>
         <h1 className="font-fredoka text-5xl text-[#40916C]">top echoes</h1>
-        <div className="mt-8 flex flex-row">
+        <div className="mt-8 flex flex-row items-center">
           <BsFillArrowLeftCircleFill className="h-[62px] w-[62px] text-[#52B286]" />
           <div className="flex">
-            <div>Image 1</div>
-            <div>Image 2</div>
-            <div>Image 3</div>
+            <div className="bg-white mx-8 rounded-2xl">
+              <img src="./assets/card-1.svg" alt="Image of Burj Khalifa" />
+              <div className="flex mb-2 mx-2 my-1">
+                <h1 className="px-3 text-base font-raleway text-[#DADADA] bg-[#A5A5A5] rounded-2xl cursor-pointer">Tag 1</h1>
+                <h1>Tag 2</h1>
+                <h1>Tag 3</h1>
+              </div>
+              <h1>Burj Khalifa</h1>
+            </div>
+            <div className="bg-white mx-8 rounded-2xl">
+              <img src="./assets/card-2.svg" alt="Image of Santorini" />
+              Image 2
+            </div>
+            <div className="bg-white mx-8 rounded-2xl">
+              <img src="./assets/card-3.svg" alt="Image of Louvre" />
+              Image 3
+            </div>
           </div>
           <BsFillArrowRightCircleFill className="h-[62px] w-[62px] text-[#52B286]" />
         </div>

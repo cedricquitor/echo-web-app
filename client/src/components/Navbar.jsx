@@ -1,6 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const scrollEvent = () => {
+    if (window.scrollY >= 50) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  // Scroll Event Listener
+  window.addEventListener("scroll", scrollEvent);
+
   return (
     <div className="fixed top-0 w-full py-12 bg-transparent">
       <div className="flex flex-row justify-between container mx-auto">
